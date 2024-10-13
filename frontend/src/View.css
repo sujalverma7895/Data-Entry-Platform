@@ -1,0 +1,54 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container for the View component */
+  .view-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Card styling for the user information */
+  .view-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    text-align: left;
+  }
+  
+  /* Title styling */
+  .view-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Content styling */
+  .view-content {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Paragraph styling */
+  .view-content p {
+    margin: 10px 0;
+  }
+  
+  /* Strong element styling */
+  .view-content strong {
+    color: #333;
+  }
+  
